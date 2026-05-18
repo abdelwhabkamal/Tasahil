@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "جامعة بهتشه شهير",
+    "location": "إسطنبول",
+    "type": "خاصة",
+    "price": 3000,
+    "logo": "assets/images/bau_logo.png",
+    "description": "واحدة من أفضل الجامعات في تركيا، تتميز بتخصصاتها الهندسية والطبية.",
+    "rating": 4.9
+  },
+  {
+    "id": 2,
+    "name": "جامعة أيدن إسطنبول",
+    "location": "إسطنبول",
+    "type": "خاصة",
+    "price": 2500,
+    "logo": "assets/images/aydin_logo.png",
+    "description": "جامعة رائدة في مجال البحث العلمي والتطوير التكنولوجي.",
+    "rating": 4.8
+  },
+  {
+    "id": 3,
+    "name": "جامعة استينيا",
+    "location": "إسطنبول",
+    "type": "خاصة",
+    "price": 4000,
+    "logo": "assets/images/istiny_logo.png",
+    "description": "تعتبر من أقوى الجامعات في المجالات الطبية والصحية في تركيا.",
+    "rating": 4.7
+  },
+  {
+    "id": 4,
+    "name": "جامعة بيلجي",
+    "location": "إسطنبول",
+    "type": "خاصة",
+    "price": 3500,
+    "logo": "assets/images/bilgi_logo.png",
+    "description": "تتميز ببيئة تعليمية دولية وبرامج تبادل طلابي واسعة.",
+    "rating": 4.8
+  }
+]

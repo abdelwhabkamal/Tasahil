@@ -1,0 +1,56 @@
+// src/styles/_variables.scss
+
+/* Design Tokens - Based on Delta Edu Reference */
+
+$navy: #1c174a;
+$navy-light: #25205e;
+$navy-dark: #110e35;
+
+$orange: #ff7626;
+$orange-light: #ff9248;
+$orange-glow: rgba(255, 118, 38, 0.15);
+
+$white: #ffffff;
+$off-white: #f5f5fb;
+$gray-text: #5a5a82;
+
+$font-primary: 'Cairo', sans-serif;
+$font-secondary: 'Inter', sans-serif;
+
+/* Export as CSS custom properties */
+:root {
+  --navy: #{$navy};
+  --navy-light: #{$navy-light};
+  --navy-dark: #{$navy-dark};
+
+  --orange: #{$orange};
+  --orange-light: #{$orange-light};
+  --orange-glow: #{$orange-glow};
+
+  --white: #{$white};
+  --off-white: #{$off-white};
+  --gray-text: #{$gray-text};
+
+  --font-primary: #{$font-primary};
+  --font-secondary: #{$font-secondary};
+
+  --glass-bg: rgba(255, 255, 255, 0.08);
+  --glass-border: rgba(255, 255, 255, 0.15);
+}
+
+@mixin glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid var(--glass-border);
+  border-radius: 20px;
+}
+
+@mixin section-title {
+  font-family: var(--font-primary);
+  font-weight: 900;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  color: var(--navy);
+  line-height: 1.2;
+  span { color: var(--orange); }
+}
