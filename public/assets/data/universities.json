@@ -38,5 +38,14 @@
     "logo": "assets/images/bilgi_logo.png",
     "description": "تتميز ببيئة تعليمية دولية وبرامج تبادل طلابي واسعة.",
     "rating": 4.8
+  },
+  {
+    "location": "إسطنبول",
+    "type": "خاصة",
+    "price": 24244,
+    "rating": 4.8,
+    "name": "Abdelwahab Kamal",
+    "description": "بللللللللللللللثلففففففففففففف",
+    "id": 5
   }
 ]
